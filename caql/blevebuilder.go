@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/SecurityBrewery/catalyst/generated/caql/parser"
+	"github.com/sarcb/catalyst/generated/caql/parser"
 )
 
 var ErrTooComplex = errors.New("unsupported features for index queries, use advanced search instead")

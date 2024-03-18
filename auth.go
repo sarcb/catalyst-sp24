@@ -8,8 +8,8 @@ import (
 
 	maut "github.com/jonas-plum/maut/auth"
 
-	"github.com/SecurityBrewery/catalyst/database"
-	"github.com/SecurityBrewery/catalyst/generated/model"
+	"github.com/sarcb/catalyst/database"
+	"github.com/sarcb/catalyst/generated/model"
 )
 
 type catalystResolver struct {

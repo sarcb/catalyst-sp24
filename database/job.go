@@ -9,10 +9,10 @@ import (
 	"github.com/arangodb/go-driver"
 	"github.com/docker/docker/client"
 
-	"github.com/SecurityBrewery/catalyst/bus"
-	"github.com/SecurityBrewery/catalyst/caql"
-	"github.com/SecurityBrewery/catalyst/database/busdb"
-	"github.com/SecurityBrewery/catalyst/generated/model"
+	"github.com/sarcb/catalyst/bus"
+	"github.com/sarcb/catalyst/caql"
+	"github.com/sarcb/catalyst/database/busdb"
+	"github.com/sarcb/catalyst/generated/model"
 )
 
 func toJob(doc *model.JobForm) *model.Job {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/SecurityBrewery/catalyst/generated/model"
+	"github.com/sarcb/catalyst/generated/model"
 )
 
 var playbook2 = &model.Playbook{

@@ -35,5 +35,5 @@ rm -rf ui/src/client/.openapi-generator ui/src/client/git_push.sh ui/src/client/
 
 gofmt -w -r 'interface{} -> any' .
 go mod tidy
-gci write --Section Standard --Section Default --Section "Prefix(github.com/SecurityBrewery/catalyst)" .
+gci write --Section Standard --Section Default --Section "Prefix(github.com/sarcb/catalyst)" .
 cd ../..

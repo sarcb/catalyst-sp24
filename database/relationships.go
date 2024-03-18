@@ -7,8 +7,8 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	"github.com/SecurityBrewery/catalyst/bus"
-	"github.com/SecurityBrewery/catalyst/database/busdb"
+	"github.com/sarcb/catalyst/bus"
+	"github.com/sarcb/catalyst/database/busdb"
 )
 
 func (db *Database) RelatedCreate(ctx context.Context, id, id2 int64) error {

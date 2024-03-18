@@ -11,7 +11,7 @@ import (
 
 	"github.com/imdario/mergo"
 
-	"github.com/SecurityBrewery/catalyst/generated/caql/parser"
+	"github.com/sarcb/catalyst/generated/caql/parser"
 )
 
 func (s *aqlInterpreter) function(ctx *parser.Function_callContext) {

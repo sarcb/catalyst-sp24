@@ -9,9 +9,9 @@ import (
 	"github.com/icza/dyno"
 	"gopkg.in/yaml.v3"
 
-	"github.com/SecurityBrewery/catalyst/database/busdb"
-	"github.com/SecurityBrewery/catalyst/generated/model"
-	"github.com/SecurityBrewery/catalyst/generated/time"
+	"github.com/sarcb/catalyst/database/busdb"
+	"github.com/sarcb/catalyst/generated/model"
+	"github.com/sarcb/catalyst/generated/time"
 )
 
 type PlaybookYAML struct {

@@ -1,4 +1,4 @@
-module github.com/SecurityBrewery/catalyst
+module github.com/sarcb/catalyst
 
 go 1.19
 

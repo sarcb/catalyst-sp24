@@ -3,7 +3,7 @@ package bus
 import (
 	"github.com/arangodb/go-driver"
 
-	"github.com/SecurityBrewery/catalyst/generated/model"
+	"github.com/sarcb/catalyst/generated/model"
 )
 
 type ResultMsg struct {

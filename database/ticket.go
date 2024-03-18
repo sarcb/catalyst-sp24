@@ -13,12 +13,12 @@ import (
 	"github.com/arangodb/go-driver"
 	"github.com/xeipuuv/gojsonschema"
 
-	"github.com/SecurityBrewery/catalyst/bus"
-	"github.com/SecurityBrewery/catalyst/caql"
-	"github.com/SecurityBrewery/catalyst/database/busdb"
-	"github.com/SecurityBrewery/catalyst/generated/model"
-	"github.com/SecurityBrewery/catalyst/generated/time"
-	"github.com/SecurityBrewery/catalyst/index"
+	"github.com/sarcb/catalyst/bus"
+	"github.com/sarcb/catalyst/caql"
+	"github.com/sarcb/catalyst/database/busdb"
+	"github.com/sarcb/catalyst/generated/model"
+	"github.com/sarcb/catalyst/generated/time"
+	"github.com/sarcb/catalyst/index"
 )
 
 func toTicket(ticketForm *model.TicketForm) (any, error) {

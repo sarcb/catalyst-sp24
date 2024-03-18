@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"github.com/SecurityBrewery/catalyst/generated/model"
+	"github.com/sarcb/catalyst/generated/model"
 )
 
 func (s *Service) ListTasks(ctx context.Context) ([]*model.TaskWithContext, error) {

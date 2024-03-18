@@ -14,8 +14,8 @@ import (
 	"github.com/tidwall/gjson"
 	"github.com/tidwall/sjson"
 
-	"github.com/SecurityBrewery/catalyst/generated/api"
-	ctime "github.com/SecurityBrewery/catalyst/generated/time"
+	"github.com/sarcb/catalyst/generated/api"
+	ctime "github.com/sarcb/catalyst/generated/time"
 )
 
 type testClock struct{}

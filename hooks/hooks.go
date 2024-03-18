@@ -5,7 +5,7 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	"github.com/SecurityBrewery/catalyst/index"
+	"github.com/sarcb/catalyst/index"
 )
 
 type Hooks struct {

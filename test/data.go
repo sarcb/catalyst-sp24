@@ -6,10 +6,10 @@ import (
 
 	maut "github.com/jonas-plum/maut/auth"
 
-	"github.com/SecurityBrewery/catalyst/database"
-	"github.com/SecurityBrewery/catalyst/database/migrations"
-	"github.com/SecurityBrewery/catalyst/generated/model"
-	"github.com/SecurityBrewery/catalyst/generated/pointer"
+	"github.com/sarcb/catalyst/database"
+	"github.com/sarcb/catalyst/database/migrations"
+	"github.com/sarcb/catalyst/generated/model"
+	"github.com/sarcb/catalyst/generated/pointer"
 )
 
 var (

@@ -3,7 +3,7 @@ package database
 import (
 	"context"
 
-	"github.com/SecurityBrewery/catalyst/generated/model"
+	"github.com/sarcb/catalyst/generated/model"
 )
 
 func (db *Database) Settings(ctx context.Context) (*model.Settings, error) {

@@ -8,9 +8,9 @@ import (
 	"github.com/arangodb/go-driver"
 	"github.com/iancoleman/strcase"
 
-	"github.com/SecurityBrewery/catalyst/caql"
-	"github.com/SecurityBrewery/catalyst/database/busdb"
-	"github.com/SecurityBrewery/catalyst/generated/model"
+	"github.com/sarcb/catalyst/caql"
+	"github.com/sarcb/catalyst/database/busdb"
+	"github.com/sarcb/catalyst/generated/model"
 )
 
 func toDashboardResponse(key string, doc *model.Dashboard) *model.DashboardResponse {

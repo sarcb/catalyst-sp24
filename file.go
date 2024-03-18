@@ -18,11 +18,11 @@ import (
 	tusd "github.com/tus/tusd/pkg/handler"
 	"github.com/tus/tusd/pkg/s3store"
 
-	"github.com/SecurityBrewery/catalyst/bus"
-	"github.com/SecurityBrewery/catalyst/database"
-	"github.com/SecurityBrewery/catalyst/generated/api"
-	"github.com/SecurityBrewery/catalyst/generated/model"
-	"github.com/SecurityBrewery/catalyst/storage"
+	"github.com/sarcb/catalyst/bus"
+	"github.com/sarcb/catalyst/database"
+	"github.com/sarcb/catalyst/generated/api"
+	"github.com/sarcb/catalyst/generated/model"
+	"github.com/sarcb/catalyst/storage"
 )
 
 func tusdUpload(db *database.Database, catalystBus *bus.Bus, client *s3.S3, external string) http.HandlerFunc {

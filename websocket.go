@@ -10,8 +10,8 @@ import (
 	"github.com/gobwas/ws/wsutil"
 	"github.com/google/uuid"
 
-	"github.com/SecurityBrewery/catalyst/bus"
-	"github.com/SecurityBrewery/catalyst/generated/api"
+	"github.com/sarcb/catalyst/bus"
+	"github.com/sarcb/catalyst/generated/api"
 )
 
 type websocketBroker struct {

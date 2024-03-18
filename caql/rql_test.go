@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/SecurityBrewery/catalyst/caql"
+	"github.com/sarcb/catalyst/caql"
 )
 
 type MockSearcher struct{}

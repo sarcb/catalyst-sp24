@@ -6,8 +6,8 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	"github.com/SecurityBrewery/catalyst/database"
-	"github.com/SecurityBrewery/catalyst/generated/model"
+	"github.com/sarcb/catalyst/database"
+	"github.com/sarcb/catalyst/generated/model"
 )
 
 func ticketTypeResponseID(ticketType *model.TicketTypeResponse) []driver.DocumentID {

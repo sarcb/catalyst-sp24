@@ -15,15 +15,15 @@ import (
 	maut "github.com/jonas-plum/maut/auth"
 	"golang.org/x/oauth2"
 
-	"github.com/SecurityBrewery/catalyst"
-	"github.com/SecurityBrewery/catalyst/bus"
-	"github.com/SecurityBrewery/catalyst/database"
-	"github.com/SecurityBrewery/catalyst/generated/api"
-	"github.com/SecurityBrewery/catalyst/generated/model"
-	"github.com/SecurityBrewery/catalyst/hooks"
-	"github.com/SecurityBrewery/catalyst/index"
-	"github.com/SecurityBrewery/catalyst/service"
-	"github.com/SecurityBrewery/catalyst/storage"
+	"github.com/sarcb/catalyst"
+	"github.com/sarcb/catalyst/bus"
+	"github.com/sarcb/catalyst/database"
+	"github.com/sarcb/catalyst/generated/api"
+	"github.com/sarcb/catalyst/generated/model"
+	"github.com/sarcb/catalyst/hooks"
+	"github.com/sarcb/catalyst/index"
+	"github.com/sarcb/catalyst/service"
+	"github.com/sarcb/catalyst/storage"
 )
 
 func Context() context.Context {

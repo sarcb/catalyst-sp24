@@ -10,9 +10,9 @@ import (
 	"golang.org/x/exp/slices"
 	"golang.org/x/oauth2"
 
-	"github.com/SecurityBrewery/catalyst"
-	"github.com/SecurityBrewery/catalyst/database"
-	"github.com/SecurityBrewery/catalyst/storage"
+	"github.com/sarcb/catalyst"
+	"github.com/sarcb/catalyst/database"
+	"github.com/sarcb/catalyst/storage"
 )
 
 type CLI struct {
