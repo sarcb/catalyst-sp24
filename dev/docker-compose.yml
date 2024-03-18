@@ -22,7 +22,7 @@ services:
     networks: [ catalyst ]
 
   authelia:
-    image: authelia/authelia:4
+    image: authelia/authelia:4.37.5
     environment:
       AUTHELIA_JWT_SECRET: "AUTHELIA_JWT_SECRET"
       AUTHELIA_IDENTITY_PROVIDERS_OIDC_ISSUER_PRIVATE_KEY_FILE: "/config/private.pem"
