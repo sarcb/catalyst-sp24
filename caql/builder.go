@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/sarcb/catalyst/generated/caql/parser"
+	"github.com/sarcb/catalyst-sp24/generated/caql/parser"
 )
 
 type Searcher interface {

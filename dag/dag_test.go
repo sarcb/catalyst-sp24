@@ -29,7 +29,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/exp/slices"
 
-	"github.com/sarcb/catalyst/dag"
+	"github.com/sarcb/catalyst-sp24/dag"
 )
 
 type Edge struct {

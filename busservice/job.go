@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/sarcb/catalyst/bus"
-	"github.com/sarcb/catalyst/generated/model"
+	"github.com/sarcb/catalyst-sp24/bus"
+	"github.com/sarcb/catalyst-sp24/generated/model"
 )
 
 func (h *busService) handleJob(automationMsg *bus.JobMsg) {

@@ -3,7 +3,7 @@ package caql_test
 import (
 	"testing"
 
-	"github.com/sarcb/catalyst/caql"
+	"github.com/sarcb/catalyst-sp24/caql"
 )
 
 func TestBleveBuilder(t *testing.T) {

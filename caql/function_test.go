@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/sarcb/catalyst/caql"
+	"github.com/sarcb/catalyst-sp24/caql"
 )
 
 func TestFunctions(t *testing.T) {

@@ -6,9 +6,9 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	"github.com/sarcb/catalyst/database/busdb"
-	"github.com/sarcb/catalyst/generated/model"
-	"github.com/sarcb/catalyst/generated/pointer"
+	"github.com/sarcb/catalyst-sp24/database/busdb"
+	"github.com/sarcb/catalyst-sp24/generated/model"
+	"github.com/sarcb/catalyst-sp24/generated/pointer"
 )
 
 const MigrationCollection string = "migrations"

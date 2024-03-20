@@ -10,14 +10,14 @@ import (
 	"github.com/go-chi/chi/v5/middleware"
 	maut "github.com/jonas-plum/maut/auth"
 
-	"github.com/sarcb/catalyst/bus"
-	"github.com/sarcb/catalyst/busservice"
-	"github.com/sarcb/catalyst/database"
-	"github.com/sarcb/catalyst/generated/api"
-	"github.com/sarcb/catalyst/hooks"
-	"github.com/sarcb/catalyst/index"
-	"github.com/sarcb/catalyst/service"
-	"github.com/sarcb/catalyst/storage"
+	"github.com/sarcb/catalyst-sp24/bus"
+	"github.com/sarcb/catalyst-sp24/busservice"
+	"github.com/sarcb/catalyst-sp24/database"
+	"github.com/sarcb/catalyst-sp24/generated/api"
+	"github.com/sarcb/catalyst-sp24/hooks"
+	"github.com/sarcb/catalyst-sp24/index"
+	"github.com/sarcb/catalyst-sp24/service"
+	"github.com/sarcb/catalyst-sp24/storage"
 )
 
 type Config struct {

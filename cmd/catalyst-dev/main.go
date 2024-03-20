@@ -10,13 +10,13 @@ import (
 	"github.com/arangodb/go-driver"
 	maut "github.com/jonas-plum/maut/auth"
 
-	"github.com/sarcb/catalyst"
-	"github.com/sarcb/catalyst/cmd"
-	"github.com/sarcb/catalyst/generated/api"
-	"github.com/sarcb/catalyst/generated/model"
-	"github.com/sarcb/catalyst/generated/pointer"
-	"github.com/sarcb/catalyst/hooks"
-	"github.com/sarcb/catalyst/test"
+	"github.com/sarcb/catalyst-sp24"
+	"github.com/sarcb/catalyst-sp24/cmd"
+	"github.com/sarcb/catalyst-sp24/generated/api"
+	"github.com/sarcb/catalyst-sp24/generated/model"
+	"github.com/sarcb/catalyst-sp24/generated/pointer"
+	"github.com/sarcb/catalyst-sp24/hooks"
+	"github.com/sarcb/catalyst-sp24/test"
 )
 
 func main() {

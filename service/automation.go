@@ -6,8 +6,8 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	"github.com/sarcb/catalyst/database"
-	"github.com/sarcb/catalyst/generated/model"
+	"github.com/sarcb/catalyst-sp24/database"
+	"github.com/sarcb/catalyst-sp24/generated/model"
 )
 
 func automationResponseID(automation *model.AutomationResponse) []driver.DocumentID {

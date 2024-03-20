@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/url"
 
-	"github.com/sarcb/catalyst/generated/model"
+	"github.com/sarcb/catalyst-sp24/generated/model"
 )
 
 func (s *Service) GetLogs(ctx context.Context, reference string) ([]*model.LogEntry, error) {

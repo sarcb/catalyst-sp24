@@ -7,9 +7,9 @@ import (
 	"github.com/arangodb/go-driver"
 	"github.com/google/uuid"
 
-	"github.com/sarcb/catalyst/bus"
-	"github.com/sarcb/catalyst/database"
-	"github.com/sarcb/catalyst/generated/model"
+	"github.com/sarcb/catalyst-sp24/bus"
+	"github.com/sarcb/catalyst-sp24/database"
+	"github.com/sarcb/catalyst-sp24/generated/model"
 )
 
 func jobResponseID(job *model.JobResponse) []driver.DocumentID {

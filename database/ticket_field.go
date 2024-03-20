@@ -10,11 +10,11 @@ import (
 	maut "github.com/jonas-plum/maut/auth"
 	"github.com/mingrammer/commonregex"
 
-	"github.com/sarcb/catalyst/bus"
-	"github.com/sarcb/catalyst/database/busdb"
-	"github.com/sarcb/catalyst/generated/model"
-	"github.com/sarcb/catalyst/generated/pointer"
-	"github.com/sarcb/catalyst/generated/time"
+	"github.com/sarcb/catalyst-sp24/bus"
+	"github.com/sarcb/catalyst-sp24/database/busdb"
+	"github.com/sarcb/catalyst-sp24/generated/model"
+	"github.com/sarcb/catalyst-sp24/generated/pointer"
+	"github.com/sarcb/catalyst-sp24/generated/time"
 )
 
 func (db *Database) AddArtifact(ctx context.Context, id int64, artifact *model.Artifact) (*model.TicketWithTickets, error) {

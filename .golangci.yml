@@ -95,7 +95,7 @@ linters-settings:
     sections:
       - standard
       - default
-      - prefix(github.com/sarcb/catalyst)
+      - prefix(github.com/sarcb/catalyst-sp24)
   ireturn:
     allow:
       - error

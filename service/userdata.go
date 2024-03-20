@@ -9,8 +9,8 @@ import (
 	"github.com/arangodb/go-driver"
 	maut "github.com/jonas-plum/maut/auth"
 
-	"github.com/sarcb/catalyst/database"
-	"github.com/sarcb/catalyst/generated/model"
+	"github.com/sarcb/catalyst-sp24/database"
+	"github.com/sarcb/catalyst-sp24/generated/model"
 )
 
 func userDataResponseID(userData *model.UserDataResponse) []driver.DocumentID {

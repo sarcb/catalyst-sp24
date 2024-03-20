@@ -14,7 +14,7 @@ import (
 	"github.com/docker/docker/client"
 	"github.com/docker/docker/pkg/stdcopy"
 
-	"github.com/sarcb/catalyst/database"
+	"github.com/sarcb/catalyst-sp24/database"
 )
 
 func createContainer(ctx context.Context, image, script, data, network string) (string, string, error) {

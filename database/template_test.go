@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sarcb/catalyst/database/migrations"
-	"github.com/sarcb/catalyst/generated/model"
-	"github.com/sarcb/catalyst/test"
+	"github.com/sarcb/catalyst-sp24/database/migrations"
+	"github.com/sarcb/catalyst-sp24/generated/model"
+	"github.com/sarcb/catalyst-sp24/test"
 )
 
 var (

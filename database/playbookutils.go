@@ -6,9 +6,9 @@ import (
 	"log"
 	"sort"
 
-	"github.com/sarcb/catalyst/caql"
-	"github.com/sarcb/catalyst/dag"
-	"github.com/sarcb/catalyst/generated/model"
+	"github.com/sarcb/catalyst-sp24/caql"
+	"github.com/sarcb/catalyst-sp24/dag"
+	"github.com/sarcb/catalyst-sp24/generated/model"
 )
 
 func playbookGraph(playbook *model.Playbook) (*dag.Graph, error) {

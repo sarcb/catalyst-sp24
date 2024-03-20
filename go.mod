@@ -1,4 +1,4 @@
-module github.com/sarcb/catalyst
+module github.com/sarcb/catalyst-sp24
 
 go 1.19
 

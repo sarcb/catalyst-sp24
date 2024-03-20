@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sarcb/catalyst/generated/model"
-	"github.com/sarcb/catalyst/generated/pointer"
-	"github.com/sarcb/catalyst/test"
+	"github.com/sarcb/catalyst-sp24/generated/model"
+	"github.com/sarcb/catalyst-sp24/generated/pointer"
+	"github.com/sarcb/catalyst-sp24/test"
 )
 
 var bob = &model.UserData{

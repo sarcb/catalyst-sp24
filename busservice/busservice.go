@@ -6,10 +6,10 @@ import (
 
 	maut "github.com/jonas-plum/maut/auth"
 
-	"github.com/sarcb/catalyst/bus"
-	"github.com/sarcb/catalyst/database"
-	"github.com/sarcb/catalyst/generated/model"
-	"github.com/sarcb/catalyst/generated/time"
+	"github.com/sarcb/catalyst-sp24/bus"
+	"github.com/sarcb/catalyst-sp24/database"
+	"github.com/sarcb/catalyst-sp24/generated/model"
+	"github.com/sarcb/catalyst-sp24/generated/time"
 )
 
 type busService struct {

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/sarcb/catalyst/generated/caql/parser"
+	"github.com/sarcb/catalyst-sp24/generated/caql/parser"
 )
 
 type aqlInterpreter struct {

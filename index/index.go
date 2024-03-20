@@ -8,7 +8,7 @@ import (
 
 	"github.com/blevesearch/bleve/v2"
 
-	"github.com/sarcb/catalyst/generated/model"
+	"github.com/sarcb/catalyst-sp24/generated/model"
 )
 
 type Index struct {

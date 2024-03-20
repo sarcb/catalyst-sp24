@@ -5,7 +5,7 @@ import (
 
 	maut "github.com/jonas-plum/maut/auth"
 
-	"github.com/sarcb/catalyst/generated/model"
+	"github.com/sarcb/catalyst-sp24/generated/model"
 )
 
 func (s *Service) GetSettings(ctx context.Context) (*model.SettingsResponse, error) {

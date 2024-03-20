@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/sarcb/catalyst/generated/model"
-	"github.com/sarcb/catalyst/test"
+	"github.com/sarcb/catalyst-sp24/generated/model"
+	"github.com/sarcb/catalyst-sp24/test"
 )
 
 func TestIndex(t *testing.T) {

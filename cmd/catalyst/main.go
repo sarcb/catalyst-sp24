@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/sarcb/catalyst"
-	"github.com/sarcb/catalyst/cmd"
-	"github.com/sarcb/catalyst/generated/api"
-	"github.com/sarcb/catalyst/hooks"
-	"github.com/sarcb/catalyst/ui"
+	"github.com/sarcb/catalyst-sp24"
+	"github.com/sarcb/catalyst-sp24/cmd"
+	"github.com/sarcb/catalyst-sp24/generated/api"
+	"github.com/sarcb/catalyst-sp24/hooks"
+	"github.com/sarcb/catalyst-sp24/ui"
 )
 
 func main() {

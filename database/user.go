@@ -12,10 +12,10 @@ import (
 	"github.com/iancoleman/strcase"
 	maut "github.com/jonas-plum/maut/auth"
 
-	"github.com/sarcb/catalyst/database/busdb"
-	"github.com/sarcb/catalyst/generated/model"
-	"github.com/sarcb/catalyst/generated/pointer"
-	"github.com/sarcb/catalyst/generated/time"
+	"github.com/sarcb/catalyst-sp24/database/busdb"
+	"github.com/sarcb/catalyst-sp24/generated/model"
+	"github.com/sarcb/catalyst-sp24/generated/pointer"
+	"github.com/sarcb/catalyst-sp24/generated/time"
 )
 
 var letters = []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_")

@@ -7,7 +7,7 @@ import (
 
 	"github.com/antlr/antlr4/runtime/Go/antlr"
 
-	"github.com/sarcb/catalyst/generated/caql/parser"
+	"github.com/sarcb/catalyst-sp24/generated/caql/parser"
 )
 
 type Parser struct {

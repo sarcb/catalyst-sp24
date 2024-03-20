@@ -10,12 +10,12 @@ import (
 	"github.com/arangodb/go-driver"
 	"github.com/arangodb/go-driver/http"
 
-	"github.com/sarcb/catalyst/bus"
-	"github.com/sarcb/catalyst/database/busdb"
-	"github.com/sarcb/catalyst/database/migrations"
-	"github.com/sarcb/catalyst/generated/model"
-	"github.com/sarcb/catalyst/hooks"
-	"github.com/sarcb/catalyst/index"
+	"github.com/sarcb/catalyst-sp24/bus"
+	"github.com/sarcb/catalyst-sp24/database/busdb"
+	"github.com/sarcb/catalyst-sp24/database/migrations"
+	"github.com/sarcb/catalyst-sp24/generated/model"
+	"github.com/sarcb/catalyst-sp24/hooks"
+	"github.com/sarcb/catalyst-sp24/index"
 )
 
 const (

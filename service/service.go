@@ -6,9 +6,9 @@ import (
 	"github.com/arangodb/go-driver"
 	maut "github.com/jonas-plum/maut/auth"
 
-	"github.com/sarcb/catalyst/bus"
-	"github.com/sarcb/catalyst/database"
-	"github.com/sarcb/catalyst/storage"
+	"github.com/sarcb/catalyst-sp24/bus"
+	"github.com/sarcb/catalyst-sp24/database"
+	"github.com/sarcb/catalyst-sp24/storage"
 )
 
 type Service struct {

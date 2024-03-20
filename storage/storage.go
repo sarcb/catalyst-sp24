@@ -10,7 +10,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
 
-	"github.com/sarcb/catalyst/generated/pointer"
+	"github.com/sarcb/catalyst-sp24/generated/pointer"
 )
 
 type Storage struct {
